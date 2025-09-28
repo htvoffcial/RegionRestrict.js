@@ -32,7 +32,7 @@ RU:Russia Federation
 
 #### callbackaction
 This key is callback function that when as stated above conditions.
-
+*** If this variable is not set, the default behavior is to display a built-in "Access Denied" message as an overlay covering your page when access is denied. ***
 ### demo&example code
 #### example code
 This code is examples for accessible only "Japan","United States","Russia Federation".
