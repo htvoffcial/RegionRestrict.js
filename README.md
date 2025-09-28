@@ -14,14 +14,10 @@ REGIONRESTRICT("type",["countryCode(2)"],callbackaction);
 | callbackaction | function | no |
 ### keys
 
-#### type
-This key is adopt access accept type.
 
-(Examples)
-
-allow:this access accept type is whitelist verdict.
-
-deny:this access accept type is blacklist verdict.
+This parameter defines the access control type:
+- `allow`: Whitelist mode - only specified countries are allowed
+- `deny`: Blacklist mode - specified countries are blocked
 
 #### countryCode(2)
 This key is setting country with ISO 3166-1 applicable to type.
