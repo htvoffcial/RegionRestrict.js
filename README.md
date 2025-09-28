@@ -20,7 +20,7 @@ This parameter defines the access control type:
 - `deny`: Blacklist mode - specified countries are blocked
 
 #### countryCode(2)
-This key is setting country with ISO 3166-1 applicable to type.
+This key is setting country with ISO 3166-1 alpha-2 applicable to type.
 
 (Examples)
 
