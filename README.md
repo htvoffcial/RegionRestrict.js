@@ -14,7 +14,7 @@ REGIONRESTRICT("type",["countryCode(2)"],callbackaction);
 | callbackaction | function | no |
 ### keys
 
-
+#### type
 This parameter defines the access control type:
 - `allow`: Whitelist mode - only specified countries are allowed
 - `deny`: Blacklist mode - specified countries are blocked
