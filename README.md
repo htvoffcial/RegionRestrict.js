@@ -1,5 +1,5 @@
 # RegionRestrict.js
-For develop Access Region Restrict.Static Client JavaScript.
+For developing Access Region Restrict.Static Client JavaScript.
 
 ## How to USE.
 ### request method
@@ -35,13 +35,13 @@ US:UnitedStates
 RU:Russia Federation
 
 #### callbackaction
-This key is callback function that when as stated avobe conditions.
+This key is callback function that when as stated above conditions.
 
 ### demo&example code
 #### example code
-This code is examples for accesible only "Japan","United States","Russia Federation".
+This code is examples for accessible only "Japan","United States","Russia Federation".
 ```
-var region_restrict_js_allow_list = ["JP","US","RU"];
+var region_restrict_allow_list = ["JP","US","RU"];
 REGIONRESTRICT(“allow”,region_restrict_allow_list);
 ```
 #### results
